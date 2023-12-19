@@ -20,7 +20,7 @@ def getvideo(response):
     except:
         img = cv2.imread('screen.jpg')
         return img 
-cam = Client('http://192.168.100.22', 'emmanuel', 'Iwm150Aeir', timeout=30)
+cam = Client('Ip', 'User', 'Password', timeout=30)
 cam.count_events = 2 # The number of events we want to retrieve (default = 1)
 while True:
     while True:
